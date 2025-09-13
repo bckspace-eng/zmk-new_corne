@@ -61,6 +61,15 @@
         };
     };
 
+    macros {
+        henkan: henkan {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp CAPS &kp TAB>;
+            label = "HENKAN";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
