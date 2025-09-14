@@ -82,7 +82,7 @@
                      &mt LEFT_CONTROL LEFT_ALT  &henkan           &lt 3 SPACE                                                     &lt 2 ENTER            &kp BACKSPACE  &kp DELETE
             >;
 
-            sensor-bindings = <&inc_dec_kp UP_ARROW DOWN_ARROW>;
+            sensor-bindings = <&inc_dec_kp DOWN_ARROW UP_ARROW>;
         };
 
         lower_layer {
