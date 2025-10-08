@@ -45,7 +45,7 @@ layers:
   - B
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:backspace-reverse-outline$$
-  - {t: Sft+LANG ZENKAKUHANKAKU, h: SYMBOL}
+  - {t: LANG ZENKAKUHANKAKU, h: SYMBOL}
   - {t: INT MUHENKAN, h: NUMBER}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
