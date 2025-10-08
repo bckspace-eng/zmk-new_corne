@@ -33,8 +33,8 @@ layers:
   - X
   - C
   - V
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
+  - {t: '[', h: 'Ctl+[', s: '{'}
+  - {t: ']', h: 'Sft+]', s: '}'}
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - $$mdi:arrow-down-bold$$
   - )
