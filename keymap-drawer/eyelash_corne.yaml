@@ -21,7 +21,7 @@ layers:
   - {t: '-', s: _}
   - {t: ;, s: ':'}
   - $$mdi:arrow-left-bold$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - $$mdi:arrow-right-bold$$
   - (
   - K
@@ -35,7 +35,7 @@ layers:
   - V
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - $$mdi:keyboard-space$$
+  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - $$mdi:arrow-down-bold$$
   - )
   - G
