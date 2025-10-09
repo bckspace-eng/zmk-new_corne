@@ -33,8 +33,8 @@ layers:
   - X
   - C
   - V
-  - {t: ',', h: '$$mdi:apple-keyboard-control$$', s: <}
-  - {t: ., h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '!', h: SYMBOL}
+  - {t: /, h: Fn, s: '?'}
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - $$mdi:arrow-down-bold$$
   - )
@@ -44,9 +44,9 @@ layers:
   - J
   - B
   - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:backspace-reverse-outline$$
-  - {t: LANG ZENKAKUHANKAKU, h: SYMBOL}
-  - {t: INT MUHENKAN, h: NUMBER}
+  - {t: ',', h: '$$mdi:apple-keyboard-control$$', s: <}
+  - {t: ., h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: LANG ZENKAKUHANKAKU, h: NUMBER}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
   NUMBER:
@@ -101,7 +101,7 @@ layers:
   SYMBOL:
   - {t: '$$mdi:transfer$$', type: trans}
   - '!'
-  - '@'
+  - {t: /, s: '?'}
   - '#'
   - $
   - '%'
@@ -131,7 +131,7 @@ layers:
   - OUT USB
   - OUT BLE
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - '&mkp MB5'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
@@ -143,7 +143,7 @@ layers:
   - '~'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:keyboard-space$$', type: held}
+  - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -181,7 +181,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:progress-download$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&mkp MB5'
+  - {t: '&mkp MB5', type: held}
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
