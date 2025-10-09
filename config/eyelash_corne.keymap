@@ -76,10 +76,10 @@
         default_layer {
             display-name = "QWERTY";
             bindings = <
-&kp Q  &kp L  &kp U  &kp LEFT_BRACKET  &kp RIGHT_BRACKET      &kp AT                                          &kp UP                   &kp SQT                    &kp F      &kp W      &kp R  &kp Y  &kp P
-&kp E  &kp I  &kp A  &kp O             &kp MINUS              &kp SEMICOLON                         &kp LEFT  &bt BT_SEL 1  &kp RIGHT  &kp LEFT_PARENTHESIS       &kp K      &kp T      &kp N  &kp S  &kp H
-&kp Z  &kp X  &kp C  &kp V             &mt LCTRL EXCLAMATION  &mt LEFT_SHIFT SLASH  &bt BT_SEL 0              &kp DOWN                 &kp RIGHT_PARENTHESIS      &kp G      &kp D      &kp M  &kp J  &kp B
-                     &kp BACKSPACE     &lt 3 COMMA            &lt 2 PERIOD                                                             &lt 1 LANG_ZENKAKUHANKAKU  &kp ENTER  &kp SPACE
+&kp Q  &kp L  &kp U  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp AT                                           &kp UP                   &kp SQT                    &kp F      &kp W      &kp R  &kp Y  &kp P
+&kp E  &kp I  &kp A  &kp O             &kp MINUS          &kp SEMICOLON                          &kp LEFT  &bt BT_SEL 1  &kp RIGHT  &kp LEFT_PARENTHESIS       &kp K      &kp T      &kp N  &kp S  &kp H
+&kp Z  &kp X  &kp C  &kp V             &lt 2 EXCLAMATION  &lt 3 SLASH            &bt BT_SEL 0              &kp DOWN                 &kp RIGHT_PARENTHESIS      &kp G      &kp D      &kp M  &kp J  &kp B
+                     &kp BACKSPACE     &mt LCTRL COMMA    &mt LEFT_SHIFT PERIOD                                                     &lt 1 LANG_ZENKAKUHANKAKU  &kp ENTER  &kp SPACE
             >;
 
             sensor-bindings = <&scroll_encoder>;
