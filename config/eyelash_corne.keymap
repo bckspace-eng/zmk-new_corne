@@ -76,10 +76,10 @@
         default_layer {
             display-name = "QWERTY";
             bindings = <
-&kp Q  &kp L  &kp U  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp AT                                               &kp UP                   &kp SQT                &kp F      &kp W      &kp R  &kp Y  &kp P
-&kp E  &kp I  &kp A  &kp O             &kp MINUS          &kp SEMICOLON                              &kp LEFT  &bt BT_SEL 1  &kp RIGHT  &kp LEFT_PARENTHESIS   &kp K      &kp T      &kp N  &kp S  &kp H
-&kp Z  &kp X  &kp C  &kp V             &mt LCTRL COMMA    &mt LEFT_SHIFT PERIOD      &bt BT_SEL 0              &kp DOWN                 &kp RIGHT_PARENTHESIS  &kp G      &kp D      &kp M  &kp J  &kp B
-                     &kp BACKSPACE     &kp DELETE         &lt 2 LANG_ZENKAKUHANKAKU                                                     &lt 1 INT_MUHENKAN     &kp ENTER  &kp SPACE
+&kp Q  &kp L  &kp U  &kp LEFT_BRACKET  &kp RIGHT_BRACKET      &kp AT                                          &kp UP                   &kp SQT                    &kp F      &kp W      &kp R  &kp Y  &kp P
+&kp E  &kp I  &kp A  &kp O             &kp MINUS              &kp SEMICOLON                         &kp LEFT  &bt BT_SEL 1  &kp RIGHT  &kp LEFT_PARENTHESIS       &kp K      &kp T      &kp N  &kp S  &kp H
+&kp Z  &kp X  &kp C  &kp V             &mt LCTRL EXCLAMATION  &mt LEFT_SHIFT SLASH  &bt BT_SEL 0              &kp DOWN                 &kp RIGHT_PARENTHESIS      &kp G      &kp D      &kp M  &kp J  &kp B
+                     &kp BACKSPACE     &mt LCTRL COMMA        &lt 2 PERIOD                                                             &lt 1 LANG_ZENKAKUHANKAKU  &kp ENTER  &kp SPACE
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -100,7 +100,7 @@
         raise_layer {
             display-name = "SYMBOL";
             bindings = <
-&trans  &kp EXCL      &kp AT        &kp HASH   &kp DLLR   &kp PRCNT                            &mmv MOVE_UP                     &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
+&trans  &kp EXCL      &kp SLASH     &kp HASH   &kp DLLR   &kp PRCNT                            &mmv MOVE_UP                     &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
 &trans  &bt BT_CLR    &mkp LCLK     &mkp MCLK  &mkp RCLK  &mkp MB4             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
 &trans  &out OUT_USB  &out OUT_BLE  &none      &none      &mkp MB5   &trans                    &mmv MOVE_DOWN                   &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
                                     &trans     &trans     &kp SPACE                                                             &kp RET    &trans     &trans
