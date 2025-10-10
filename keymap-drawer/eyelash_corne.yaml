@@ -33,8 +33,8 @@ layers:
   - X
   - C
   - V
-  - {t: '!', h: SYMBOL}
-  - {t: /, h: Fn, s: '?'}
+  - {t: '!', h: HOME}
+  - {t: /, h: END, s: '?'}
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - $$mdi:arrow-down-bold$$
   - )
@@ -131,7 +131,7 @@ layers:
   - OUT USB
   - OUT BLE
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&mkp MB5'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
@@ -181,7 +181,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:progress-download$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '&mkp MB5', type: held}
+  - '&mkp MB5'
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
